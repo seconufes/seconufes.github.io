@@ -50,7 +50,7 @@
 					<li><a href="#eventos">Eventos</a></li>
 					<li><a href="#programacao">Programação</a></li>
 					<li><a href="#realizacao">Realização</a></li>
-					<li><a target="_blank" href="https://goo.gl/forms/HbOHtnzWhHLen7YA2"> Inscreva-se para o Fórum!</a></li>
+					<li><a data-toggle="modal" data-target="#insc"> Inscrições</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -59,17 +59,45 @@
 				<div class="row">
 					<div class="col-md-10 col-md-offset-1">
 						<div class="home-content">
-							<center><img class="img-responsive" src="img/header/v3b5.png"/>
-							<!--<img src="img/header/ji.png"/>
-							<img src="img/header/jorex.png"/>
-							<img src="img/header/mp.png"/>
-							<img src="img/header/sc.png"/>--></center>
+							<center>
+								<img class="img-responsive" src="img/header/v3b5.png"/>
+							</center>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</header>
+	<div class="modal fade" id="insc" tabindex="-1" role="dialog" aria-labelledby="insc" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="insc">
+						INSCRIÇÕES
+					</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="panel panel-primary">
+					  <div class="panel-heading">
+					    <h3 class="panel-title"><b>II Fórum Intersetorial de Combate ao Aedes Aegypti</b></h4>
+					  </div>
+					  <div class="panel-body">
+							<p>Para realizar sua inscrição no II Fórum Estratégias Intersetoriais de Enfrentamento ao Aedes aegypti,
+								clique no botão <code>Inscreva-se</code> abaixo e preencha todos os campos do formulário.
+								Apenas uma inscrição será reconhecida por pessoa, caso haja duplicidade.</p>
+							<p><a target="_blank" href="https://goo.gl/forms/HbOHtnzWhHLen7YA2"><button class="btn btn-success">Inscreva-se!</button></a></p>
+					  </div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<div id="sobre" class="section md-padding bg-grey">
 			<div class="container">
@@ -91,7 +119,7 @@
 					</p>
 					<div class="feature">
 						<i class="fa fa-flask"></i>
-						<p><b>V Semana de Ciência e Tecnologia</b></p>
+						<p><b>V Semana de Ciência e Tecnologia de São Mateus</b></p>
 					</div>
 					<div class="feature">
 						<i class="fa fa-bug"></i>
@@ -132,7 +160,7 @@
 				<div class="col-md-6">
 					<div class="about">
 						<i class="fa fa-flask"></i>
-						<h3>V Semana de Ciência e Tecnologia</h3>
+						<h3>V Semana de Ciência e Tecnologia de São Mateus</h3>
 						<p>
 							Mostra de divulgação científica e das atividades da universidade aberta ao público em geral
 							e a alunos de escolas de ensino médio e fundamental.
@@ -156,7 +184,7 @@
 						<i class="fa fa-briefcase"></i>
 						<h3>Mostra de Profissões da UFES</h3>
 						<p>
-							Informações sobre os cursos de graduação da UFES/CEUNES e tour as áreas de estudo e pesquisa.
+							Informações sobre os cursos de graduação da UFES/CEUNES e tour as áreas de estudo e pesquisa. <a href="./pdf/mp.pdf" target="_blank">Veja folder sobre o evento.</a>
 						</p>
 					</div>
 				</div>
@@ -403,7 +431,7 @@
 										<hr>
 										<h4>Mesa Redonda: Zika e microcefalia - Da Assistência à comunicação. </h4>
 										<p>1) Profª Drª Paula Freitas – UFES-CEUNES. O surto de zika vírus no ES e as políticas públicas de saúde.</p>
-										<p>2) Doutoranda Michele Nacif Antunes – UFES/ Saúde Coletiva - A comunicação da Zika na mídia e em mensagens de Whatsapp.</p>
+										<p>2) Drª Michele Nacif Antunes – UFES/ Saúde Coletiva – Comunicando o Risco - Um olhar sobre a epidemia de Zika.</p>
 										<p>3) Sérgio Brito – Documentarista e Analista em Gestão da Saúde. Distribuidora Video Saúde - Fiocruz /ES/UFES - A produção de vídeos em saúde.</p>
 										<table class="table table-stripped table-hover">
 											<tr>
@@ -429,7 +457,7 @@
 										<p>Coordenadora da Mesa: Profª Drª. Sandra Rocha (UFES – CEUNES - DCEL)</p>
 										<p>Ministrantes:</p>
 										<p>1) Roberto Todor – Capacitação de Adolescentes para o desenvolvimento de mídias digitais em atividades de prevenção. Design – Doutorando Fiocruz.</p>
-										<p>2) Membro do Laboratório e Observatório de Ontologias Projetuais (Loop – UFES) – Confecção do Aplicativo Educativo Aedes Zero (apresentação a confirmar).</p>
+										<p>2) Profª Drº Angélica Espinosa Barbosa Miranda - Campanha UFES contra o Mosquito – PROEX/UFES.</p>
 										<p>3) Profº Drº Leonardo José Silvestre - UFES/CEUNES. - Localização e mapeamento de possíveis focos de Aedes aegypti por meio de processamento de imagens aéreas com técnicas de inteligência artificial.</p>
 										<table class="table table-stripped table-hover">
 											<tr>
@@ -696,6 +724,10 @@
 					<hr><br>
 				</div>
 
+				<br><br>
+				<div class="section-header text-center">
+					<h2 class="title">Apoio</h2>
+				</div>
 				<div class="col-md-4 col-xs-6 work">
 					<img class="img-responsive" src="./img/apoio/ifessm.png" alt="">
 					<div class="overlay"></div>
